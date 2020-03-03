@@ -1,0 +1,15 @@
+Package: NBA.Search
+Title: Returns Information About NBA Stats
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Gretchen",
+           family = "Streett",
+           role = c("aut", "cre"),
+           email = "gretchenstreett@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package allows you to search through NBA stats by year. Different function return the oldest player in a certain year, who had the highest free throw rate, or a correlation plot for the continuous numeric variables in a year. 
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2
+Imports: dplyr (>= 0.8.4), corrplot, purrr
